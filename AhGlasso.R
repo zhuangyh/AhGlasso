@@ -1,3 +1,5 @@
+library(glasso)
+
 CV_ahglasso <-
   function(x = NULL, # expression data, nrow: features; ncol: subjects.
            known_ppi = NULL, # previous known PPI
